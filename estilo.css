@@ -1,0 +1,82 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-6');
+
+body {
+    margin: 0; /* Remover a margem padrão do body */
+}
+
+header {
+    background-color: black;
+    height: 70px;
+    width: 100%; /* Ajustar a largura para ocupar todo o espaço disponível */
+    display: flex;
+    justify-content: flex-end; /* Alinhar os botões no canto direito */
+    align-items: center;
+    padding: 0 20px; /* Adicionar espaçamento nos lados */
+}
+
+.button {
+    color: white;
+    font-family: "Gotham", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px 30px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.quader, .quader-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: auto; /* Use "scroll" instead of "auto" if you want the scrollbar to always be visible */
+}
+
+.text-section{
+    margin: 10px;
+    max-width: 700px; 
+    font-family: "Gotham", sans-serif;
+}
+
+.imagen-1 img{
+    max-width: 400px;
+    margin: 80px;
+    border-radius: 15px;
+}
+
+.imagen-1:hover img {
+    box-shadow: 0 0 8px rgb(231, 80, 80); /* Adiciona uma borda sutil no hover */
+}
+
+.quader {
+    background-color: rgb(52, 52, 241);
+    color: white;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.quader-2 {
+    background-color: rgb(255, 238, 0);
+    color: black;
+}
+
+.text-section-2 {
+    margin: 10px;
+    max-width: 700px;
+    font-family: "Gotham", sans-serif;
+}
